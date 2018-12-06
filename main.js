@@ -5,7 +5,7 @@ function display()
     hhead.textContent=welcome;
     alert('text have been changed');
 }*/
-var myimage=document.querySelector("img");
+/*var myimage=document.querySelector("img");
 myimage.onclick=imagechange;
 function imagechange()
 {
@@ -20,7 +20,7 @@ function imagechange()
         myimage.setAttribute('src','android.png');
         
     }
-}
+}*/
 var mybutton=document.querySelector('button');
 var myheading=document.querySelector('h1');
 function setusername()
@@ -41,53 +41,53 @@ mybutton.onclick=function()
 {
     setusername();
 }
-var show=document.getElementById('apple');
+var show=document.getElementById('applee');
 show.onclick=display;
 function display()
 {
     
-   if(show.style.color!='red')
+   if(show.style.backgroundColor!='red')
    {
        
-       show.style.color='red';
-       app.style.color='black';
-       win.style.color='black';
+       show.style.backgroundColor='red';
+       app.style.backgroundColor='white';
+       win.style.backgroundColor='white';
    }
    else 
    {
-    show.style.color='black';
+    show.style.color='white';
    }
    
 }
-var app=document.getElementById('doodle');
+var app=document.getElementById('androidd');
 app.onclick=android;
 function android()
 {
-    if(app.style.color!='red')
+    if(app.style.backgroundColor!='red')
     {
-        app.style.color='red';
-        show.style.color='black';
-        win.style.color='black';
+        app.style.backgroundColor='red';
+        show.style.backgroundColor='white';
+        win.style.backgroundColor='white';
     }
     else 
     {
-     app.style.color='black';
+     app.style.backgroundColor='white';
     }
     
 }
-var win=document.getElementById('windows');
+var win=document.getElementById('windowss');
 win.onclick=windows;
 function windows()
 {
-    if(win.style.color!='red')
+    if(win.style.backgroundColor!='red')
     {
-        win.style.color='red';
-        show.style.color='black';
-        app.style.color='black';
+        win.style.backgroundColor='red';
+        show.style.backgroundColor='white';
+        app.style.backgroundColor='white';
     }
     else 
     {
-     win.style.color='black';
+     win.style.backgroundColor='white';
     }
     
 }
